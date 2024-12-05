@@ -60,10 +60,35 @@ body{
   background-color:#323946 !important;
  
 }
-.round{
-  padding: 8px !important;
+/* .round{
+  padding: 6px !important;
   background-color: #7cf03d;
   border-radius: 50% !important;
-  width: 5% !important;
+  width: 3% !important;
   display: flex !important;
+} */
+
+.ri-circle-fill{
+  color: #7cf03d;
+  display: inline-block !important;
 }
+.fontsize{
+  font-size: 63px !important;
+}
+
+.skills-inner:hover{
+  color: #7cf03d !important;
+  transition: all 0.5s !important;
+  
+}
+
+/* --------------------------padding-------------------------- */
+.p-l{
+  padding-left: 5px !important;
+}
+
+.p-0{
+  padding: 0px !important;
+}
+
+
