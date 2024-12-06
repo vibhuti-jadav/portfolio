@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/bootstrap.min.css">
     <link rel="stylesheet" href="fonts/remixicon.css">
+    <link href='style/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     
@@ -22,14 +23,14 @@
                     VIBHUTI J
                 </a>
 
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbar">
+                    <span class="navbar-toggler-icon "></span>
                 </button>
 
                 <div class="navbar-collapse collapse gap p-1 " id="navbar">
                     <ul class="navbar-nav m-auto ">
                         <li class="nav-item ">
-                            <a class="nav-link  text-white nav-color" href=""><b>Home</b></a>
+                            <a class="nav-link  text-white nav-color " href=""><b>Home</b></a>
                         </li>
 
                         <li class="nav-item">
@@ -267,10 +268,10 @@
           <ul class="nav nav-tabs flex-column">
             <h2 class="fw-4">Why Hire Me?</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, libero.elit. Quam, libero.</p>
-            <li class="nav-item "><a href="#home" data-bs-toggle="tab"  class="nav-link  my-2 active text-center sernav">education</a></li>
-            <li class="nav-item"><a href="#about" data-bs-toggle="tab"  class="nav-link my-2 text-center">Skill</a></li>
-            <li class="nav-item"><a href="#product" data-bs-toggle="tab"  class="nav-link my-2 text-center">cirtificate</a></li>
-            <li class="nav-item"><a href="#feature" data-bs-toggle="tab"  class="nav-link my-2 text-center">About Me</a></li>
+            <li class="nav-item "><a href="#home" data-bs-toggle="tab"  class="nav-link  color-nav my-2 active text-center sernav">education</a></li>
+            <li class="nav-item"><a href="#about" data-bs-toggle="tab"  class="nav-link my-2 color-nav text-center">Skill</a></li>
+            <li class="nav-item"><a href="#product" data-bs-toggle="tab"  class="nav-link my-2 color-nav text-center">cirtificate</a></li>
+            <li class="nav-item"><a href="#feature" data-bs-toggle="tab"  class="nav-link my-2 color-nav text-center">About Me</a></li>
           </ul>
         </div>
         <div class="col-md-8  border">
@@ -360,7 +361,9 @@
                 </div>
               </div>
               <div class="col border border-danger">
-                <div class="skills-inner border border-black   p-3"></div>
+                <div class="skills-inner d-flex justify-content-center border border-black bg-gains rounded p-3">
+                  <box-icon type='logo' name='jquery' class="bi"></box-icon>
+                </div>
               </div>
               <div class="col border border-danger">
                 <div class="skills-inner border border-black   p-3"></div>
@@ -412,14 +415,12 @@
                 <span class="color-g">Name</span> vibhuti jadav
               </div>
               <div class="col border border-gray p-3">
-                <span class="color-g">Gender</span> Male
+                <span class="color-g">Gender</span> Female
               </div>
               <div class="col border border-gray p-3">
                 <span class="color-g">age</span>20 years 0ld
               </div>
-              <div class="col border border-gray p-3">
-                <span class="color-g">status</span>unmarried
-              </div>
+            
               <div class="col border border-gray p-3">
                 <span class="color-g">city</span> bhavnagar
               </div>
@@ -439,11 +440,9 @@
                 <span class="color-g">Phone</span>(+09)0987 5862
               </div>
               <div class="col border border-gray p-3">
-                <span class="color-g">Gender</span> Male
+                <span class="color-g">Email</span>abc10@gmail.com
               </div>
-              <div class="col border border-gray p-3">
-                <span class="color-g">Gender</span> Male
-              </div>
+             
              </div>
               </div>
           </div>
@@ -459,13 +458,14 @@
 
 
             <!-- ----------------------------projects-start----------------------------------------------------- -->
-            <div class="container border border-warning">
+             <section class=" border">
+              <div class="container border border-warning   p-3">
                 <div id="carouselExample" class="carousel slide">
-               <div class="carousel-inner">
+               <div class="carousel-inner ">
                  <div class="carousel-item active">
                    <!-- <img src="img.jpg" class="d-block w-100" alt="..."> -->
                     <div class="row row-cols-1 row-cols-md-2">
-                     <div class="col border border-danger ">
+                     <div class="col border border-danger p-5 p-s-0">
                        <h1>01</h1>
                        <h5>Full Stack Project</h5>
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi omnis nemo, expedita minima quis natus?</p>
@@ -475,8 +475,8 @@
                      </div>
                      <div class="col border border-danger ">
                        <div class="img-sli border border-primary d-flex">
-                           <img src="img/p1.png" alt="" width="50%">
-                           <img src="img/P2.png" alt="" width="50%">
+                           <img src="img/pm1.png" alt="" width="50%" >
+                           <img src="img/P1.png" alt="" width="50%">
                        </div>
                      </div>
                     </div>
@@ -484,7 +484,7 @@
                  <div class="carousel-item">
                    <!-- <img src="img.jpg" class="d-block w-100" alt="..."> -->
                    <div class="row row-cols-1 row-cols-md-2">
-                     <div class="col border border-danger ">
+                     <div class="col border border-danger p-5">
                        <h1>02</h1>
                        <h5>back-end  Project</h5>
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi omnis nemo, expedita minima quis natus?</p>
@@ -502,7 +502,7 @@
                  <div class="carousel-item">
                    <!-- <img src="img.jpg" class="d-block w-100" alt="..."> -->
                    <div class="row row-cols-1 row-cols-md-2">
-                     <div class="col border border-danger ">
+                     <div class="col border border-danger p-5">
                        <h1>03</h1>
                        <h5>front-end Project</h5>
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi omnis nemo, expedita minima quis natus?</p>
@@ -528,6 +528,8 @@
                </button>
              </div> 
              </div>
+             </section>
+            
                
                   <!-- ----------------------------projects-start----------------------------------------------------- -->
 
@@ -567,76 +569,76 @@
                 <div class="container border border-success my-5">
                     <div class="row row-cols-1 row-cols-md-2">
                       <div class="col border border-info ">
-                          <h3>Let's Work Together</h3>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/>
+                          <h3 class="p-l-5 p-u-5 fs-1">Let's Work Together</h3>
+                          <p class="p-l-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/>
                            Aspernatur a soluta reiciendis nesciunt aperiam doloribus eaque.<br/>
                              voluptatem a cupiditate nulla!</p>
-                              <div class="row">
-                                <div class="col-1 border border-black p-2">
+                              <div class="row mt-3 p-l-5">
+                                <div class="col-1 border border-black p-2 d-flex justify-content-center fs-4 color-g bg-gains rounded">
                                   <!-- phone-icon -->
                                   <i class="ri-phone-fill"></i>
                                 </div>
-                                <div class="col-6 border border-black ">
-                                 phone
+                                <div class="col-8 border border-black ">
+                                 <span class="color-g">phone</span>
                                  <br/>
                                  (+91)000 987 6780
                                 </div>
                               </div>
-                              <div class="row">
-                                <div class="col-1 border border-black p-2">
+                              <div class="row mt-3 p-l-5">
+                                <div class="col-1 border border-black p-2 d-flex justify-content-center fs-4 color-g bg-gains rounded">
                                   <!-- email-icon -->
                                   <i class="ri-mail-line"></i>
                                 </div>
-                                <div class="col-6 border border-black ">
-                                 Email
+                                <div class="col-8 border border-black ">
+                                 <span  class="color-g">Email</span>
                                   <br/>
                                  abc4567@gmail.com
                                 </div>
                               </div>
-                              <div class="row">
-                                <div class="col-1 border border-black p-2">
+                              <div class="row mt-3 p-l-5">
+                                <div class="col-1 border border-black p-2 d-flex justify-content-center fs-4 color-g bg-gains rounded">
                                   <!-- map-icon -->
                                   <i class="ri-map-pin-fill"></i>
                                 </div>
-                                <div class="col-6 border border-black ">
-                                 Address
+                                <div class="col-8 border border-black ">
+                                <span class="color-g">Address</span> 
                                   <br/>
                                   134 switserland,canada.
                                 </div>
                               </div>
                            
                         </div>
-                    <div class="col border border-info ">
-                      <h2 class="text-center">Contact me!</h2>
+                    <div class="col border border-info bg-gains rounded p-3">
+                      <h2 class="text-center fs-1 ">Contact <span  class="color-g">me!</span> </h2>
                       <div class="row row-cols-1 row-cols-md-2">
                         <div class="col  p-3">
                             <div class="contect-inner  ">
-                                <input type="text" class="form-control p-2" placeholder="First Name">
+                                <input type="text" class="form-control p-2 bg-b b-none" placeholder="First Name">
                             </div>
                         </div>
                         <div class="col  p-3">
                             <div class="contect-inner  ">
-                                <input type="text" class="form-control p-2" placeholder="Second Name">
+                                <input type="text" class="form-control p-2 bg-b b-none" placeholder="Second Name">
                             </div>
                         </div>
                         <div class="col  p-3">
                             <div class="contect-inner  ">
-                                <input type="text" class="form-control p-2" placeholder="Mobile Number">
+                                <input type="text" class="form-control p-2 bg-b b-none" placeholder="Mobile Number">
                             </div>
                         </div>
                         <div class="col  p-3">
                             <div class="contect-inner  ">
-                                <input type="text" class="form-control p-2" placeholder="Email Address">
+                                <input type="text" class="form-control p-2 bg-b b-none" placeholder="Email Address">
                             </div>
                         </div>
                     </div>
               
               
-                    <textarea class="form-control mt-2"  rows="10"></textarea>
+                    <textarea class="form-control mt-2 bg-b b-none"  rows="10" placeholder="Your message"></textarea>
                     <div class="row d-flex justify-content-center">
-                      <div class="col d-flex justify-content-center p-2">
+                      <div class="col d-flex justify-content-center p-2 mt-2">
                           
-                    <button class="btn btn-primary">Submit</button>
+                    <button class="btn btn-primary">send message</button>
                             </div>
                   </div>
                     </div>
@@ -645,5 +647,7 @@
                  <!-- ---------------------------------------------- contect-us-end-------------------------------------------- -->
       
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/boxicons.js"></script>
+
 </body>
 </html>

@@ -8,8 +8,15 @@ body{
   color: white !important;
 }
 
+.navbar-toggler-icon{
+  color: white !important;
+}
+
 .gap{
     gap: 20px !important;
+}
+.bg-none{
+  background-color: transparent !important;
 }
 
 .btn{
@@ -41,6 +48,9 @@ body{
 .bg-gains{
   background-color: #323946 !important;
 }
+.bg-b{
+  background-color: #1f242d !important;
+}
 .scale{
   transition: all 0.5s !important;
 }
@@ -50,7 +60,7 @@ body{
   border: 1px solid #7cf03d !important;
   
 }
-.nav-link{
+.color-nav{
   background-color:#323946 !important;
   color: #7cf03d !important;
   font-weight: 700 !important;
@@ -81,14 +91,32 @@ body{
   transition: all 0.5s !important;
   
 }
+::placeholder{
+  color: #3a4252 !important;
+
+}
+.b-none{
+  border: none !important;
+}
 
 /* --------------------------padding-------------------------- */
 .p-l{
   padding-left: 5px !important;
 }
+.p-l-5{
+  padding-left: 5% !important;
+}
+.p-u-5{
+  padding-top: 5% !important;
+}
 
 .p-0{
   padding: 0px !important;
+}
+
+
+.bi{
+  color: white !important;
 }
 
 
