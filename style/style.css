@@ -114,9 +114,7 @@ body{
   padding: 0px !important;
 }
 
-
-.bi{
-  color: white !important;
+box-icon #icon{
+  fill: red !important;
 }
-
 
