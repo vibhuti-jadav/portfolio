@@ -99,9 +99,29 @@ body{
   border: none !important;
 }
 
+.img-hover:hover{
+    content: "hello guys" !important;
+    background-color: bisque !important;
+    width: 100% !important;
+    height: 100% !important;
+    transition: all 0.5s !important;
+}
+
+
+
+
 /* --------------------------padding-------------------------- */
 .p-l{
   padding-left: 5px !important;
+}
+.p-r{
+  padding-right: 10px !important;
+}
+.p-l-3{
+  padding-left: 2% !important;
+}
+.p-t-5{
+  padding-top: 12px !important;
 }
 .p-l-5{
   padding-left: 5% !important;
@@ -117,10 +137,5 @@ body{
 .round{
   border-radius: 50% !important;
   border: 1px solid #7cf03d !important;
+  padding-left: 5px !important;
 }
-
-
-
-
-
-
