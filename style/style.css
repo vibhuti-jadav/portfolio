@@ -6,6 +6,8 @@
 body{
   background-color: #1f242d !important;
   color: white !important;
+  /* font-family: "Lato", serif !important;
+  font-size: 15px !important; */
 }
 
 .navbar-toggler-icon{
@@ -147,4 +149,25 @@ body{
   padding-left: 5px !important;
   background-color:#323946;
 
+}
+/* ---------------------------text------------------------ */
+
+.text {
+  width: 20ch;
+  border-right: 2px solid;
+  animation: blink 1s step-end infinite, type 2.5s steps(22) forwards;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
 }
