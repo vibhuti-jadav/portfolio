@@ -6,8 +6,7 @@
 body{
   background-color: #1f242d !important;
   color: white !important;
-  /* font-family: "Lato", serif !important;
-  font-size: 15px !important; */
+  /* */
 }
 
 .navbar-toggler-icon{
@@ -171,3 +170,121 @@ body{
     width: 0;
   }
 }
+
+
+/* ----------------circuler-bar------------------------ */
+/* 
+.radial-bar{
+  width: 50% !important;
+  height: 170px !important;
+  position: relative !important;
+}
+
+.radial-bar svg{
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50% , -50%)rotate(-90deg);
+  width: 120px !important;
+  height: 160px !important;
+}
+.progress-bar{
+  stroke-width: 10 !important;
+  stroke: black !important;
+  fill: transparent !important;
+  stroke-dasharray: 502 !important;
+  stroke-dashoffset: 502 !important;
+  stroke-linecap: round !important;
+  animation: animate-bar 1s linear forwards !important;
+
+}
+
+@keyframes animate-bar{
+  100%{
+      stroke-dashoffset: -1 !important;
+  }
+}
+
+.path{
+  stroke-width: 10 !important;
+  stroke: aqua !important;
+  fill: transparent !important;
+  stroke-dasharray: 502 !important; 
+    stroke-dashoffset: 502 !important; 
+  stroke-linecap: round !important; 
+  opacity: 3 !important;
+
+
+}
+
+.path-1{animation: animate-path1 1s 1s linear forwards;}
+.path-2{animation: animate-path1 1s 1s linear forwards;}
+.path-3{animation: animate-path1 1s 1s linear forwards;}
+.path-4{animation: animate-path1 1s 1s linear forwards;}
+
+@keyframes animate-path1{
+  100%{
+      stroke-dashoffset: 50 !important;
+  }
+}
+@keyframes animate-path1{
+  100%{
+      stroke-dashoffset: 175 !important;
+  }
+}
+@keyframes animate-path1{
+  100%{
+      stroke-dashoffset: 125 !important;
+  }
+}
+@keyframes animate-path1{
+  100%{
+      stroke-dashoffset: 75 !important;
+  }
+}
+
+.percentage{
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%,-50%) !important;
+  font-size: 17px !important;
+  animation: showText 0.5 1s linear forwards !important;
+  opacity: 3 !important;
+} 
+ */
+
+ @property --progress{
+  syntax: '<number>';
+  initial-value: 70;
+  inherits: false;
+ }
+
+
+ .circlular-progress{
+  position: relative !important;
+  width: 300px !important;
+  height: 300px !important;
+  background: conic-gradient(crimson calc(var(--progress) * 3.6deg),#eee 0deg)  !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+ }
+
+ .circlular-progress::before{
+    content: ' ' !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    width: 250px !important;
+    height: 250px !important;
+    background-color:#1f242d !important;
+    border-radius: 50% !important;
+    transform: translate(-50% , -50%);
+  }
+
+  .circlular-progress span{
+    font-size: 3rem !important;
+    z-index: 1 !important;
+  }
