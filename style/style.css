@@ -21,28 +21,28 @@ body{
 }
 
 .btn{
-  background-color: #7cf03d !important;
+  background-color: #6EA0D1 !important;
   color: #1f242d !important;
   border: none !important;
   width: 35% !important;
   border-radius: 40px !important;
   font-weight: 700 !important;
   transition: all 0.5s !important;
-  box-shadow: 0 0 10px #7cf03d !important;
+  box-shadow: 0 0 10px #6EA0D1 !important;
   padding: 10px !important;
 }
 .btn:hover{
   background-color: #1f242d !important;
-  color: #7cf03d !important;
-  border: 1px solid #7cf03d !important;
+  color: #6EA0D1 !important;
+  border: 1px solid #6EA0D1 !important;
 } 
 
 .color-g{
-  color: #7cf03d !important;
+  color: #6EA0D1 !important;
 }
 
 .nav-color:hover{
-  color: #7cf03d !important;
+  color: #6EA0D1 !important;
   transition: all 0.5s;
 }
 
@@ -58,12 +58,12 @@ body{
 
 .scale:hover{
   transform: scale(1.04) !important;
-  border: 1px solid #7cf03d !important;
+  border: 1px solid #6EA0D1 !important;
  
 }
 .color-nav{
   background-color:#323946 !important;
-  color: #7cf03d !important;
+  color: #6EA0D1 !important;
   font-weight: 700 !important;
   
 }
@@ -73,14 +73,14 @@ body{
 }
 /* .round{
   padding: 6px !important;
-  background-color: #7cf03d;
+  background-color: #6EA0D1;
   border-radius: 50% !important;
   width: 3% !important;
   display: flex !important;
 } */
 
 .ri-circle-fill{
-  color: #7cf03d;
+  color: #6EA0D1;
   display: inline-block !important;
 }
 .fontsize{
@@ -88,7 +88,7 @@ body{
 }
 
 .skills-inner:hover{
-  color: #7cf03d !important;
+  color: #6EA0D1 !important;
   transition: all 0.5s !important;
   
 }
@@ -144,7 +144,7 @@ body{
 
 .round{
   border-radius: 50% !important;
-  border: 1px solid #7cf03d !important;
+  border: 1px solid #6EA0D1 !important;
   padding-left: 5px !important;
   background-color:#323946;
 
@@ -332,7 +332,7 @@ body{
     
     .circle-container .circle .item .fill{
       clip: rect(0px, 90px, 150px, 0px);
-      background-color: #7cf03d;
+      background-color: #6EA0D1;
     }
     
     .circle-container .circle .item.layer-1,
@@ -367,7 +367,7 @@ body{
     
     .circle-container .circle .item1 .fill1{
       clip: rect(0px, 90px, 150px, 0px);
-      background-color: #7cf03d;
+      background-color: #6EA0D1;
     }
     
     .circle-container .circle .item1.layer-4,
@@ -384,10 +384,8 @@ body{
         transform: rotate(153deg);
       }
     }
-  
-  
-  
-  .inside-content{
+
+.inside-content{
       width: 130px;
       height: 130px;
       border-radius: 50%;
@@ -399,4 +397,5 @@ body{
       font-weight: 700;
       font-size: 32px;
       line-height: 130px;
-    }
+}
+
