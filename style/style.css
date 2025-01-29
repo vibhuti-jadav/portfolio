@@ -6,7 +6,7 @@
 body{
   background-color: #1f242d !important;
   color: white !important;
-  /* */
+ 
 }
 
 .navbar-toggler-icon{
@@ -84,7 +84,8 @@ body{
   display: inline-block !important;
 }
 .fontsize{
-  font-size: 63px !important;
+  /* font-size: 63px !important; */
+  font-size: 20px !important;
 }
 
 .skills-inner:hover{
@@ -107,10 +108,6 @@ body{
     height: 100% !important;
     transition: all 0.5s !important;
 }
-
-
-
-
 
 /* --------------------------padding-------------------------- */
 .p-l{
@@ -174,9 +171,7 @@ body{
   }
 }
 
-
 /* ----------------circuler-bar------------------------ */
-
 
    .skill-bg img:nth-child(2){
     position: absolute;
@@ -228,10 +223,7 @@ body{
       animation: fill ease-in-out 3s;
     }
     
-  
-  
-  
-  
+
   @keyframes fill {
       0%{
         transform: rotate(0deg);
@@ -240,8 +232,9 @@ body{
         transform: rotate(153deg);
       }
     }
-    .circle-container .circle .item1,
-    .circle-container .circle .fill1{
+
+   .circle-container .circle .item1,
+   .circle-container .circle .fill1{
       width: 150px;
       height: 150px;
       position: absolute;
@@ -288,3 +281,59 @@ body{
 
 
 /* From Uiverse.io by nikk7007 */ 
+
+
+
+.nav-underline .nav-link.active, .nav-underline .show>.nav-link {
+  color: #6EA0D1 !important;
+  /* font-weight: 700;
+  color: var(--bs-nav-underline-link-active-color);
+  border-bottom-color: currentcolor; */
+}
+/* ----------------------------------marqueee------------------ */
+.skills-wrapper1 {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.skills-inner1 {
+  display: flex;
+  animation: scrollSkills1 6s linear infinite;
+}
+
+.skills-inner2 {
+  display: flex;
+  animation: scrollSkills1 6s linear infinite reverse;
+}
+
+.skills-box1 {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 10px;
+  align-items: center;
+  border: 2px solid black;
+  background-color: gainsboro;
+  border-radius: 10px;
+  padding: 40px !important;
+  /* margin: 35px !important; */
+  margin-bottom: 20px;
+}
+
+.skills-box1 i {
+  font-size: 40px;
+}
+
+.skills-box1 p {
+  margin-top: 10px;
+}
+
+@keyframes scrollSkills1 {
+  from{
+   margin-left: -40%;
+  }
+  to{
+    margin-left: 0;
+  }
+ 
+}
