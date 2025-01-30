@@ -9,6 +9,10 @@ body{
  
 }
 
+.rd{
+   border-radius: 38% 62% 35% 65% / 65% 49% 51% 35% !important;
+}
+
 .navbar-toggler-icon{
   color: white !important;
 }
