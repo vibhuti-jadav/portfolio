@@ -8,6 +8,23 @@ body{
   color: white !important;
  
 }
+.navbar-toggler {
+
+  background-color: white !important;
+  border: 3px solid #6EA0D1 !important;
+}
+
+.border-p{
+  background-color: #6EA0D1 !important;
+  color: #1f242d !important;
+}
+.border-ps{
+  border:1px solid  #6EA0D1 !important;
+  
+}
+.shd{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
 
 .rd{
    border-radius: 38% 62% 35% 65% / 65% 49% 51% 35% !important;
@@ -153,6 +170,7 @@ body{
   background-color:#323946;
 
 }
+
 /* ---------------------------text------------------------ */
 
 .text {
