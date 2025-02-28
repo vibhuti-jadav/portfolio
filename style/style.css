@@ -8,7 +8,9 @@ body{
   color: white !important;
  
 }
-
+.bt{
+  background-color: transparent !important;
+}
 
 
 .navbar-toggler {
@@ -66,6 +68,9 @@ body{
 
 .color-g{
   color: #6EA0D1 !important;
+}
+.color-second{
+  color: #424a5a !important;
 }
 
 .nav-color:hover{
@@ -385,3 +390,4 @@ body{
   z-index: 9999;
   transition: transform 0.2s;
 }
+
