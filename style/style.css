@@ -72,6 +72,9 @@ body{
 .color-second{
   color: #424a5a !important;
 }
+.color-third{
+  color: #53658a !important;
+}
 
 .nav-color:hover{
   color: #6EA0D1 !important;
