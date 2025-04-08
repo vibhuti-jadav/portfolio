@@ -199,7 +199,7 @@ body{
 .text {
   width: 20ch;
   border-right: 2px solid;
-  animation: blink 1s step-end infinite, type 2.5s steps(22) forwards;
+  animation: blink 1s step-end infinite, type 2.5s steps(24) forwards;
   overflow: hidden;
   white-space: nowrap;
 }
