@@ -115,6 +115,9 @@ body{
   background-color:#323946 !important;
  
 }
+.bg-bad{
+  background-color: #6EA0D1;
+}
 /* .round{
   padding: 6px !important;
   background-color: #6EA0D1;
